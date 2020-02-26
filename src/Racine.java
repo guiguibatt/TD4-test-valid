@@ -18,7 +18,5 @@ public class Racine {
             System.out.println(tab[i]);
         }
         System.out.println();
-
-
     }
 }
