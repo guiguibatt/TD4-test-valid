@@ -2,7 +2,7 @@ import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Matrice {
-    public static int[][] calculer(int a, int b, int m, int n){
+    public static int[][] calculer(int m, int n, int a, int b){
         int [][] tab = new int[m][n]; // Création de la matrice
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
